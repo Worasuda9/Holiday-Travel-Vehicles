@@ -16,22 +16,22 @@ public class TradeinVehicle{
         this.year = year;
         this.allowance = allowance;
     }
-    public getTradeinID(){
+    public int getTradeinID(){
         return this.tradeinId;
     }
-    public getSerialNumber(){
+    public String getSerialNumber(){
         return this.serialNumber;
     }
-    public getMake(){
+    public String getMake(){
         return this.make;
     }
-    public getModel(){
+    public String getModel(){
         return this.model;
     }
-    public getYear(){
+    public int getYear(){
         return this.year;
     }
-    public getAllowance(){
+    public float getAllowance(){
         return this.allowance;
     }
 }
